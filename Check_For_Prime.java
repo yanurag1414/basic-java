@@ -1,6 +1,6 @@
 public class Check_For_Prime {
     public static void main(String[] args) {
-        System.out.println(isPrime(88));
+        System.out.println(isPrime(2));
 
     }
     static boolean isPrime(int n) {
@@ -8,7 +8,7 @@ public class Check_For_Prime {
             return false;
         }
         if (n == 2 || n == 3) {
-            return false;
+            return true;
         }
         if (n % 2 == 0 || n % 3 == 0) {
             return false;
