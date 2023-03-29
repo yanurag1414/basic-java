@@ -1,4 +1,4 @@
-public class pattern {
+public class triangle_Pattern {
     public static void main(String[] args) {
         spatter(4);
 
