@@ -3,7 +3,7 @@ public class Check_For_Prime {
         System.out.println(isPrime(2));
 
     }
-    static boolean isPrime(int n) {
+    public static boolean isPrime(int n) {
         if (n == 1) {
             return false;
         }
